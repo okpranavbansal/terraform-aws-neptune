@@ -1,6 +1,14 @@
 # Terraform AWS Neptune Module
 
+> 🔱 **Forked from [`dstrates/terraform-aws-neptune`](https://github.com/dstrates/terraform-aws-neptune)**
+> — evaluated for our production graph database layer.
+
 Terraform module that creates AWS Neptune resources.
+
+## Why I Forked This
+Forked this module while evaluating AWS Neptune as a managed graph database 
+alternative during our infrastructure work. Used it to provision test clusters 
+for benchmarking graph queries against our existing Neo4j setup.
 
 ## Features
 
@@ -254,3 +262,10 @@ No modules.
 | <a name="output_neptune_security_group_id"></a> [neptune\_security\_group\_id](#output\_neptune\_security\_group\_id)                               | ID of the Neptune security group                                        |
 | <a name="output_neptune_subnet_group_id"></a> [neptune\_subnet\_group\_id](#output\_neptune\_subnet\_group\_id)                                     | ID of the Neptune subnet group                                          |
 <!-- END_TF_DOCS -->
+
+## Author
+
+**Pranav Bansal** — AI Infrastructure & SRE Engineer
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/okpranavbansal)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/okpranavbansal)
